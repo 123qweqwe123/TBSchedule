@@ -1,0 +1,48 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "me.hrps.schedule.spring.boot.autoconfigure.TBScheduleProperties",
+      "name": "rp.tbschedule",
+      "type": "me.hrps.schedule.spring.boot.autoconfigure.TBScheduleProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "me.hrps.schedule.spring.boot.autoconfigure.TBScheduleProperties",
+      "defaultValue": "localhost:2181",
+      "name": "rp.tbschedule.zk-connect-string",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "me.hrps.schedule.spring.boot.autoconfigure.TBScheduleProperties",
+      "defaultValue": false,
+      "name": "rp.tbschedule.zk-is-check-parent-path",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "me.hrps.schedule.spring.boot.autoconfigure.TBScheduleProperties",
+      "defaultValue": "password",
+      "name": "rp.tbschedule.zk-password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "me.hrps.schedule.spring.boot.autoconfigure.TBScheduleProperties",
+      "defaultValue": "\/tb-schedule\/test",
+      "name": "rp.tbschedule.zk-root-path",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "me.hrps.schedule.spring.boot.autoconfigure.TBScheduleProperties",
+      "defaultValue": 60000,
+      "name": "rp.tbschedule.zk-session-timeout",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "me.hrps.schedule.spring.boot.autoconfigure.TBScheduleProperties",
+      "defaultValue": "scheduleAdmin",
+      "name": "rp.tbschedule.zk-user-name",
+      "type": "java.lang.String"
+    }
+  ]
+}
